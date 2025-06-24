@@ -357,7 +357,7 @@ class LinkedList {
 
 }
 
-// Очередь
+// Стек
 class Stack {
     constructor() {
       // Создаем связный список
