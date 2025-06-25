@@ -451,10 +451,8 @@ class HashTable {
 //Test
 
 const hashTable = new HashTable();
-hashTable.set("1 key","1 value");
-hashTable.set("2 key","2 value");
-hashTable.set("3 key","3 value");
-hashTable.set("4 key","4 value");
-console.log("set 4 key-value: "  + hashTable.getKeys()+ " values:" + hashTable.getValues());
-
+for (let i = 0; i < 40; i +=1){
+    hashTable.set(`${i} key`,`${i} value`);
+}
+console.log(hashTable);
 
