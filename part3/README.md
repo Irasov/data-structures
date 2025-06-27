@@ -18,7 +18,7 @@
 
 ![Дерево](https://habrastorage.org/r/w1560/webt/ty/q7/ms/tyq7mst4eh5zamh5dy9l7lnvqr4.png)
 
-9. Двоичное дерево поиска
+## 9. Двоичное дерево поиска
 
 Описание
 
