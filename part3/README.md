@@ -52,3 +52,65 @@
 
 O(n)
 
+
+## 10. АВЛ-дерево.
+
+Описание
+
+[Википедия](https://ru.wikipedia.org/wiki/%D0%90%D0%92%D0%9B-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BE)
+
+[YouTube](https://www.youtube.com/watch?v=DB1HFCEdLxA)
+
+АВЛ-дерево (AVL tree) — это сбалансированное по высоте двоичное дерево поиска. Для каждой вершины такого дерева высота двух ее поддеревьев не должна различаться более чем на 1. В противном случае, выполняется балансировка дерева путем одного или нескольких поворотов (вращений) смежных узлов.
+
+
+![AVL tree](https://habrastorage.org/webt/l5/om/48/l5om486fusvq7o8dy4rl2spw6v0.gif)
+
+Анимация добавления нескольких элементов в АВЛ-дерево. Здесь мы наблюдаем левый, правый, правый-левый, левый-правый и правый повороты.
+
+![AVL tree](https://habrastorage.org/r/w1560/webt/4k/tx/jb/4ktxjbjjmrje-2lx6u2vo5zmzwo.png)
+
+Сбалансированное АВЛ-дерево с факторами баланса (разность между высотой левого и правого поддеревьев).
+
+
+Вращения (повороты) дерева
+
+![AVL tree](https://habrastorage.org/r/w1560/webt/y0/xu/cl/y0xuclok4has_hjbyxaxphopyn8.jpeg)
+
+![AVL tree](https://habrastorage.org/r/w1560/webt/y8/et/lv/y8etlvr0er1dtttao3uvocjumii.png)
+
+Левое вращение.
+
+![AVL tree](https://habrastorage.org/r/w1560/webt/ov/aj/n0/ovajn04ijolefodbbdsihrep_y0.jpeg)
+
+![AVL tree](https://habrastorage.org/r/w1560/webt/ab/he/h8/abheh8t3of8fvg0_za4o27zauey.png)
+
+Правое вращение.
+
+![AVL tree](https://habrastorage.org/r/w1560/webt/ng/pd/0x/ngpd0xnfp6fffu89qlyj0vf-u2m.jpeg)
+
+![AVL tree](https://habrastorage.org/r/w1560/webt/7k/fm/tf/7kfmtfrexx2itgz_4gxh0coqp1y.png)
+
+Левое-правое вращение.
+
+![AVL tree](https://habrastorage.org/r/w1560/webt/38/87/qy/3887qy95gorbut0fnzi_t88owwq.jpeg)
+
+![AVL tree](https://habrastorage.org/r/w1560/webt/a8/yt/si/a8ytsioqvhr314v0h182i1nlp6w.png)
+
+Правое-левое вращение.
+
+Интерактивную визуализации АВЛ-дерева можно посмотреть здесь.
+
+
+### Сложность
+
+
+Временная
+
+|Поиск	 |Вставка	|Удаление|
+|--------|----------|--------|
+|O(log n)|O(log n)	|O(log n)|
+
+Пространственная
+
+O(n)
